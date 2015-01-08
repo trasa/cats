@@ -7,7 +7,12 @@ application = flask.Flask(__name__)
 #Make sure to remove this line before deploying to production.
 application.debug=True
 
-ascii_cats=[]
+ascii_cats=["=^.^=",
+    "=^..^=",
+    ",,,^..^,,,~",
+    "~(=^..^)",
+    "(,,,)=(^.^)=(,,,)"
+]
 
 @application.route('/')
 def index():
@@ -21,13 +26,5 @@ def get_random_cat():
     else:
         return None
 
-def load_cats():
-    """ read the cats file into a list """
-    global ascii_cats
-    with open('cats.txt') as f:
-        ascii_cats = f.read().splitlines()
-    print("found {0} cats".format(len(ascii_cats)))
-    
 if __name__ == '__main__':
-    load_cats()
     application.run(host='0.0.0.0')
