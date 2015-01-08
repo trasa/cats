@@ -11,8 +11,9 @@ application.debug=True
 ascii_cats=[]
 
 @application.route('/')
-def random_cat():
-    return get_random_cat()
+def index():
+#    return get_random_cat()
+    return "what"
 
 def get_random_cat():
     """ get a random cat from our ascii_cats collection """
@@ -29,5 +30,5 @@ def load_cats():
         ascii_cats = f.read().splitlines()
 
 if __name__ == '__main__':
-    load_cats()
+#    load_cats()
     application.run(host='0.0.0.0')
