@@ -11,7 +11,7 @@ picked at random from a list. The app is deployed using elastic beanstalk, which
 cloud-based, 21st century application environment using all the latest in metrics, notification, and all those bells and whistles.
 All quite ridiculous, really.
 
-To see this amazing app in action, there's a deployment at [cats.meancat.com](cats.meancat.com), at least until I get bored and shut the
+To see this amazing app in action, there's a deployment at [cats.meancat.com](http://cats.meancat.com), at least until I get bored and shut the
 EB environment down.
 
 ## Inspiration
