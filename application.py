@@ -1,5 +1,4 @@
 import flask
-import codecs
 import random
 
 application = flask.Flask(__name__)
