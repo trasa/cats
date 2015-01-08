@@ -26,7 +26,8 @@ def load_cats():
     global ascii_cats
     with open('cats.txt') as f:
         ascii_cats = f.read().splitlines()
-
+    print("found {0} cats".format(len(ascii_cats)))
+    
 if __name__ == '__main__':
     load_cats()
     application.run(host='0.0.0.0')
