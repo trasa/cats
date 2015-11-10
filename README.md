@@ -2,7 +2,7 @@
 An Web Application providing the world with ASCII Cats.
 
 I wanted to play around with AWS, Elastic Beanstalk, and deploying web applications to The Cloud. Sure, I could do the 
-typical 'hello world' example... but I wanted something difference.
+typical 'hello world' example... but I wanted something different.
 
 ## Example App
 
